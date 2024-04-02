@@ -1,0 +1,81 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "米玩数学启蒙"
+			}
+		},
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "米玩数学启蒙"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus":{
+					"titleNView":false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/mode/difficulty/index",
+			"style": {
+				"navigationBarTitleText": "地狱模式"
+			}
+		},
+		{
+			"path": "pages/mode/middle/index",
+			"style": {
+				"navigationBarTitleText": "进阶模式"
+			}
+		},
+		{
+			"path": "pages/mode/simple/index",
+			"style": {
+				"navigationBarTitleText": "基础启蒙"
+			}
+		},
+		{
+			"path": "pages/mode/simple/count",
+			"style": {
+				"navigationBarTitleText": "数一数"
+			}
+		},
+		{
+			"path": "pages/mode/simple/compare",
+			"style": {
+				"navigationBarTitleText": "比一比"
+			}
+		},
+		{
+			"path": "pages/mode/simple/calculate",
+			"style": {
+				"navigationBarTitleText": "算一算"
+			}
+		},
+		{
+			"path": "pages/ranking/ranking",
+			"style": {
+				"navigationBarTitleText": "排行榜"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "#ffffff",
+		"navigationBarTitleText": "米玩数学启蒙",
+		"navigationBarBackgroundColor": "#5EC99B",
+		"backgroundColor": "#5EC99B",
+		"transparentTitle": "auto"
+	}
+}
